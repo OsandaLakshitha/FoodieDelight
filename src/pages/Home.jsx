@@ -186,7 +186,7 @@ const Home = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-orange-500/50 transition-shadow flex items-center space-x-2 group"
               >
-                <span>Order Now</span>
+                <a href="/menu">Order Now</a>
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
 
@@ -195,7 +195,7 @@ const Home = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg border-2 border-white/30 hover:bg-white/20 transition-colors"
               >
-                View Menu
+                <a href="/menu"> View Menu </a>
               </motion.button>
             </div>
           </motion.div>
@@ -357,7 +357,7 @@ const Home = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-shadow inline-flex items-center space-x-2"
             >
-              <span>View Full Menu</span>
+              <a href="/menu">View Full Menu</a>
               <ChevronRight className="w-5 h-5" />
             </motion.button>
           </motion.div>
@@ -395,14 +395,14 @@ const Home = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/20 transition-shadow"
             >
-              Order Online
+              <a href="/order">Order Online</a>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-colors"
             >
-              Reserve a Table
+              <a href="reserve">Reserve a Table</a>
             </motion.button>
           </div>
         </motion.div>
